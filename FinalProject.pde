@@ -68,3 +68,18 @@ int countNeighbors(int[][] grid, int x, int y) {
   sum -= grid[x][y]; // Exclude the current cell
   return sum;
 }
+
+
+
+PImage img;
+
+void setup() {
+  size(1200,900);
+  img = loadImage("Apartment.png");
+}
+
+void draw() {
+  image(img, 0, 0,1200,900);
+}
+
+
